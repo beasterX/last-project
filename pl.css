@@ -1,0 +1,164 @@
+.pl-head {
+  background-color: #131313;
+}
+
+.pl-banner {
+  background-color: #131313;
+  width: 50%;
+  max-width: 100%;
+  padding: 10px 60px 10px 120px;
+}
+#premierLeaguePage {
+  margin: 20px 80px 20px 80px;
+}
+#premierLeaguePage h2:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+  text-shadow: 0 0 3px rgb(67, 208, 255);
+}
+
+.explore-heart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-heart h2,
+.explore-heart p {
+  max-width: 70%;
+}
+
+.drogba {
+  max-width: 250px;
+  margin-top: 20px;
+}
+
+.drogba-container {
+  width: 100%;
+  height: auto;
+}
+.iconic-moments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pl-2 {
+  max-width: 500px;
+  margin-right: 20px;
+  height: auto;
+}
+
+.tc {
+  max-width: 55%;
+}
+
+.uc {
+  padding-top: 20px;
+}
+.uc-2 {
+  padding-top: 100px;
+}
+.explore-heart,
+.unrivaled-competition,
+.iconic-moments,
+.legendary-clubs {
+  padding: 20px;
+}
+main p {
+  padding-top: 20px;
+}
+
+table {
+  border: 0.3rem solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-color: #ddd;
+  box-shadow: 0.2rem 0.2rem 1rem #000;
+  margin: 0 auto;
+  white-space: wrap;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+caption {
+  font-size: 3rem;
+  color: #131313;
+  text-shadow: 0.1rem 0.1rem 0.3rem #000;
+  padding: 1.5rem 0 3rem;
+  font-weight: bold;
+}
+table td {
+  font-size: 20px;
+}
+
+tbody {
+  text-align: center;
+  border-bottom: 0.3rem solid black;
+  border-top: 0.3rem solid black;
+}
+
+tfoot th,
+tfoot td {
+  font-size: 1.4rem;
+  padding: 0 1rem;
+  line-height: 2;
+}
+
+th,
+td {
+  padding: 1rem;
+  border-bottom: 0.1rem solid black;
+  border-top: 0.1rem solid black;
+  overflow: hidden;
+  margin: 0;
+}
+
+tbody tr th {
+  text-align: left;
+}
+
+tbody > :nth-child(1),
+tbody > :nth-child(2),
+tbody > :nth-child(3) {
+  background-color: #5f7ec6;
+}
+
+tbody > :nth-child(4) {
+  background-color: #85a0dd;
+}
+
+tbody > :nth-child(5),
+tbody > :nth-child(6) {
+  background-color: #b6c7f0;
+}
+
+tbody > :nth-child(2n + 6) {
+  background-color: #ddd;
+}
+
+tbody > :nth-child(2n + 7) {
+  background-color: #ccc;
+}
+
+thead,
+tfoot tr :last-child {
+  background: linear-gradient(to bottom, #111, #333 50%, #111);
+  color: #ddd;
+}
+
+tfoot > tr:nth-child(1) :first-child {
+  background-color: #5f7ec6;
+}
+
+tfoot > tr:nth-child(2) :first-child {
+  background-color: #85a0dd;
+}
+
+tfoot > tr:nth-child(3) :first-child {
+  background-color: #b6c7f0;
+}
+
+footer {
+  margin-top: 50px;
+}
